@@ -150,11 +150,14 @@ def oneTotalRoundAttack(block_size, key_size, plaintext, key, ciphertext_ori, la
 
 
 if __name__ == '__main__':
-    # block_size, key_size, plaintext, key, ciphertext_ori, last_key  = 32, 64, 0x65656877, 0x1918111009080100, 0x770d2c76,'0x7fbe'
+    block_size, key_size, plaintext, key, ciphertext_ori, last_key  = 32, 64, 0x65656877, 0x1918111009080100, 0x770d2c76,'0x7fbe'
     # block_size, key_size, plaintext, key, ciphertext_ori, last_key = 48, 96, 0x72696320646e, 0x1a19181211100a0908020100, 0xf3cf25e33b36,'0xda7a12'
-    block_size, key_size, plaintext, key, ciphertext_ori, last_key = 64, 128, 0x656b696c20646e75, 0x1b1a1918131211100b0a090803020100, 0x45ce69025f7ab7ed, '0x3d5eab8f'
+    # block_size, key_size, plaintext, key, ciphertext_ori, last_key = 64, 128, 0x656b696c20646e75, 0x1b1a1918131211100b0a090803020100, 0x45ce69025f7ab7ed, '0x3d5eab8f'
+
+    # 记录5000轮完整攻击中每一轮所需的攻击次数
     attack_times_list = []
 
+    # 5000轮完整攻击
     for i in range(0, 5000):
         oneTotalRoundAttack(block_size, key_size, plaintext, key, ciphertext_ori, last_key, attack_times_list)
 

@@ -116,7 +116,7 @@ def print_test_vector(block_size, key_size, key, plain, cipher):
     print('\n')
 
 
-# 测试
+# simeck算法加解密测试数据
 def main():
     plaintext32_en = 0x65656877
     ciphertext32_de = 0x770d2c76

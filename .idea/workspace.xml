@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58ac4da9-1feb-492f-9a5b-aa60efad5e32" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/simeck.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/simeck.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIFFERENTIALATTACK/Bit-ﬂip.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIFFERENTIALATTACK/Byte-Case-two.py" beforeDir="false" afterPath="$PROJECT_DIR$/DIFFERENTIALATTACK/5000-bit-flip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIFFERENTIALATTACK/bit-ﬂip-attack-with-no-control-all.py" beforeDir="false" afterPath="$PROJECT_DIR$/DIFFERENTIALATTACK/bit-ﬂip-attack-with-no-control-all.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SIMECK/simeck.py" beforeDir="false" afterPath="$PROJECT_DIR$/SIMECK/simeck.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,9 +14,10 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/simeck$Bit_ip.coverage" NAME="Bit-ﬂip Coverage Results" MODIFIED="1557479505213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DIFFERENTIALATTACK" />
-    <SUITE FILE_PATH="coverage/simeck$main.coverage" NAME="main Coverage Results" MODIFIED="1555050039656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SIMECK" />
+    <SUITE FILE_PATH="coverage/simeck$main.coverage" NAME="main Coverage Results" MODIFIED="1557480999159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SIMECK" />
     <SUITE FILE_PATH="coverage/simeck$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1553525349946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="H:/" />
-    <SUITE FILE_PATH="coverage/simeck$simeck.coverage" NAME="simeck Coverage Results" MODIFIED="1551658535799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SIMECK" />
+    <SUITE FILE_PATH="coverage/simeck$bit_ip_attack_with_control_all.coverage" NAME="bit-ﬂip-attack-with-control-all Coverage Results" MODIFIED="1557481054292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DIFFERENTIALATTACK" />
+    <SUITE FILE_PATH="coverage/simeck$simeck.coverage" NAME="simeck Coverage Results" MODIFIED="1557480950588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SIMECK" />
     <SUITE FILE_PATH="coverage/simeck$5000_bit_flip.coverage" NAME="5000-bit-flip Coverage Results" MODIFIED="1557480592827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DIFFERENTIALATTACK" />
   </component>
   <component name="DatabaseView">
@@ -39,7 +38,26 @@
     <favorites_list name="simeck" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="bit-ﬂip-attack-with-control-all.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/bit-ﬂip-attack-with-control-all.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="145" column="24" lean-forward="true" selection-start-line="145" selection-start-column="24" selection-end-line="145" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bit-ﬂip-attack-with-no-control-all.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/bit-ﬂip-attack-with-no-control-all.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,13 +83,15 @@
         <option value="$PROJECT_DIR$/SIMECK/main.py" />
         <option value="$PROJECT_DIR$/DIFFERENTIALATTACK/Byte.py" />
         <option value="$PROJECT_DIR$/DIFFERENTIALATTACK/Byte-Case-two.py" />
-        <option value="$PROJECT_DIR$/SIMECK/simeck.py" />
         <option value="$PROJECT_DIR$/DIFFERENTIALATTACK/Bit-ﬂip.py" />
         <option value="$PROJECT_DIR$/DIFFERENTIALATTACK/attack-with-no-control-32.py" />
         <option value="$PROJECT_DIR$/DIFFERENTIALATTACK/attack-with-no-control-48.py" />
         <option value="$PROJECT_DIR$/DIFFERENTIALATTACK/5000-bit-flip.py" />
         <option value="$PROJECT_DIR$/DIFFERENTIALATTACK/attack-with-no-control-64.py" />
         <option value="$PROJECT_DIR$/DIFFERENTIALATTACK/result-of-attack-with-no-control-64.py" />
+        <option value="$PROJECT_DIR$/SIMECK/simeck.py" />
+        <option value="$PROJECT_DIR$/DIFFERENTIALATTACK/bit-ﬂip-attack-with-control-all.py" />
+        <option value="$PROJECT_DIR$/DIFFERENTIALATTACK/bit-ﬂip-attack-with-no-control-all.py" />
       </list>
     </option>
   </component>
@@ -95,6 +115,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,7 +132,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.result-of-attack-with-no-control-64">
+  <component name="RunManager" selected="Python.bit-ﬂip-attack-with-control-all">
     <configuration name="5000-bit-flip" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="simeck" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,7 +173,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Bit-ﬂip" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bit-ﬂip-attack-with-control-all" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="simeck" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -166,26 +186,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DIFFERENTIALATTACK/Bit-ﬂip.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="simeck" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="H:/" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="H:/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DIFFERENTIALATTACK/bit-ﬂip-attack-with-control-all.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,20 +230,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="simeck" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="simeck" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SIMECK" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SIMECK/simeck.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.Bit-ﬂip" />
-      <item itemvalue="Python.main (1)" />
       <item itemvalue="Python.5000-bit-flip" />
       <item itemvalue="Python.result-of-attack-with-no-control-64" />
+      <item itemvalue="Python.simeck" />
+      <item itemvalue="Python.bit-ﬂip-attack-with-control-all" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bit-ﬂip-attack-with-control-all" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.simeck" />
         <item itemvalue="Python.result-of-attack-with-no-control-64" />
         <item itemvalue="Python.5000-bit-flip" />
-        <item itemvalue="Python.Bit-ﬂip" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -261,15 +281,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32909605" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3361582" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17937852" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32909605" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49774775" visible="true" weight="0.2590604" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49774775" visible="true" weight="0.2624161" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.3295302" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3295302" />
@@ -280,7 +301,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="337" height="648" id="Documentation" side_tool="true" weight="0.3295302" />
+      <window_info anchor="right" x="0" y="0" width="337" height="648" id="Documentation" order="5" side_tool="true" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -289,24 +310,24 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18053691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26478875" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="4" weight="0.3295302" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32957748" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3295302" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,41 +342,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/Bit-ﬂip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2610">
-          <caret line="145" column="16" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SIMECK/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SIMECK/simeck.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1476">
-          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/Bit-ﬂip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1854">
-          <caret line="103" column="49" selection-start-line="103" selection-start-column="49" selection-end-line="103" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SIMECK/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SIMECK/simeck.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1476">
@@ -363,13 +349,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/Bit-ﬂip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2106">
-          <caret line="117" column="52" selection-start-line="117" selection-start-column="52" selection-end-line="117" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/Bit-ﬂip.py" />
     <entry file="file://$PROJECT_DIR$/SIMECK/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -384,13 +364,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/Bit-ﬂip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/Bit-ﬂip.py" />
     <entry file="file://$PROJECT_DIR$/SIMECK/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -405,13 +379,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/Bit-ﬂip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/Bit-ﬂip.py" />
     <entry file="file://$PROJECT_DIR$/SIMECK/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -426,13 +394,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/Bit-ﬂip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/Bit-ﬂip.py" />
     <entry file="file://$PROJECT_DIR$/SIMECK/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -447,13 +409,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/Bit-ﬂip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/Bit-ﬂip.py" />
     <entry file="file://$PROJECT_DIR$/SIMECK/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -468,13 +424,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/Bit-ﬂip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/Bit-ﬂip.py" />
     <entry file="file://$PROJECT_DIR$/SIMECK/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -610,48 +560,10 @@
     </entry>
     <entry file="file://H:/main.py" />
     <entry file="file://H:/patients360/main.py" />
-    <entry file="file://$PROJECT_DIR$/SIMECK/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SIMECK/simeck.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-608">
-          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/Bit-ﬂip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="136" column="49" lean-forward="true" selection-start-line="136" selection-start-column="49" selection-end-line="136" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/attack-with-no-control-32.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/attack-with-no-control-48.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/attack-with-no-control-64.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/Bit-ﬂip.py" />
+    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/attack-with-no-control-32.py" />
+    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/attack-with-no-control-48.py" />
+    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/attack-with-no-control-64.py" />
     <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/result-of-attack-with-no-control-64.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -663,6 +575,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="154" column="29" selection-start-line="154" selection-start-column="29" selection-end-line="154" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SIMECK/simeck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="118" column="16" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SIMECK/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/result-of-attack-with-no-control/result-of-attack-with-no-control-64.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/result-of-attack-with-no-control/result-of-attack-with-no-control-48.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/result-of-attack-with-no-control/result-of-attack-with-no-control-32.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/bit-ﬂip-attack-with-control-all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="145" column="24" lean-forward="true" selection-start-line="145" selection-start-column="24" selection-end-line="145" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DIFFERENTIALATTACK/bit-ﬂip-attack-with-no-control-all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
         </state>
       </provider>
     </entry>
