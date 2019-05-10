@@ -1,3 +1,5 @@
+import random
+
 # 不同加密模式对应的轮数
 NUM_ROUNDS = {
     # (block_size, key_size): num_rounds
@@ -100,10 +102,11 @@ class BitFlipToSimeck:
         self._ciphertext = ciphertext
 
         # 输出最后一轮密钥
-        if self._attack_round == 0:
-            print("right_last_round_key: ", "0x" + list(map(lambda x: hex(x)[2:], self._round_keys))[-1])
+        # if self._attack_round == 0:
+        #     print("right_last_round_key: ", "0x" + list(map(lambda x: hex(x)[2:], self._round_keys))[-1])
+        # 0x3d5eab8f
 
-    # 根据故障攻击计算出最后一轮密钥方法
+    # 根据比特攻击故障攻击计算出最后一轮密钥方法
     def _cal_last_round_key(self):
         bin_ciphertext_ori = list(map(lambda x: int(x), list(bin(self._ciphertext_ori)[2:].zfill(self._block_size))))
         bin_ciphertext = list(map(lambda x: int(x), list(bin(self._ciphertext)[2:].zfill(self._block_size))))
@@ -131,20 +134,31 @@ class BitFlipToSimeck:
                                          xT[result_bit2]
 
 
-if __name__ == '__main__':
-    # block_size, key_size, plaintext, key, ciphertext_ori = 32, 64, 0x65656877, 0x1918111009080100, 0x770d2c76
-    # block_size, key_size, plaintext, key, ciphertext_ori = 48, 96, 0x72696320646e, 0x1a19181211100a0908020100, 0xf3cf25e33b36
-    block_size, key_size, plaintext, key, ciphertext_ori = 64, 128, 0x656b696c20646e75, 0x1b1a1918131211100b0a090803020100, 0x45ce69025f7ab7ed
-
-    # 开始攻击
+# 一轮获取正确密钥的无控制攻击
+def oneTotalRoundAttack(block_size, key_size, plaintext, key, ciphertext_ori, last_key, attack_times_list):
+    global attack_key_result
+    attack_key_result = []
     n = int(block_size / 2)
+    attack_timer = 0
     attack_key_result = [0] * n
-    attack_times = (n - 10) if n > 20 else 10
-    for i in range(attack_times):
-        BitFlipToSimeck(block_size, key_size, plaintext, key, ciphertext_ori, i)
 
-    # 输出通过故障攻击得出来的最后一轮密钥
-    print(" hack_last_round_key: ",hex(int(''.join(map(lambda x: str(x), attack_key_result)), 2)))
+    while (hex(int(''.join(map(lambda x: str(x), attack_key_result)), 2)) != last_key):
+        attack_timer = attack_timer + 1
+        BitFlipToSimeck(block_size, key_size, plaintext, key, ciphertext_ori, random.randint(0, n - 1))
+
+    attack_times_list.append(attack_timer)
+
+
+if __name__ == '__main__':
+    # block_size, key_size, plaintext, key, ciphertext_ori, last_key  = 32, 64, 0x65656877, 0x1918111009080100, 0x770d2c76,'0x7fbe'
+    # block_size, key_size, plaintext, key, ciphertext_ori, last_key = 48, 96, 0x72696320646e, 0x1a19181211100a0908020100, 0xf3cf25e33b36,'0xda7a12'
+    block_size, key_size, plaintext, key, ciphertext_ori, last_key = 64, 128, 0x656b696c20646e75, 0x1b1a1918131211100b0a090803020100, 0x45ce69025f7ab7ed, '0x3d5eab8f'
+    attack_times_list = []
+
+    for i in range(0, 5000):
+        oneTotalRoundAttack(block_size, key_size, plaintext, key, ciphertext_ori, last_key, attack_times_list)
+
+    print(attack_times_list)
 
 # 测试样例
 #     plaintext32: 0x65656877
